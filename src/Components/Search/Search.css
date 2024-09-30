@@ -1,0 +1,25 @@
+.pokemonSearch{
+    width: 50%;
+   
+    /* border: 2px solid black; */
+     display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search-pokemon{
+    margin-top: 1rem;
+ padding: 1rem;
+   width: 80%;
+   border: none;
+   border-radius: 50px;
+   box-shadow: 1px 1px 5px black;
+   cursor: pointer;
+  
+   
+}
+@media (max-width:650px) {
+   #search-pokemon{
+      width:500px;
+   }
+   
+}
